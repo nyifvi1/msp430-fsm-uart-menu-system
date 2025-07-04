@@ -4,12 +4,12 @@ This project implements a finite state machine (FSM) on an MSP430 microcontrolle
 
 ## Project Structure
 
-- `source/`
+- `CCS/source/`
   - `main.c` – Main application logic and FSM controller
   - `api.c` – Application-level logic for each menu action
   - `bsp.c` – Board Support Package: initialization of peripherals and ports
   - `halGPIO.c` – Low-level hardware abstraction for GPIO
-- `header/`
+- `CCS/header/`
   - Header files matching each source module
 - `PC_Side/`
   - `LAB4_DCS.py` – Python script for sending commands via UART to the MSP430
